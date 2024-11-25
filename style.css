@@ -1,0 +1,50 @@
+
+
+body{
+    height: 100vh;
+    background-image: url(https://img.freepik.com/fotos-gratis/variedade-de-natureza-morta-de-natal-com-espaco-de-copia_23-2149174215.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-size: 1em;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    height: 100%;
+    width: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 600px;
+    width: 900px;
+    display: flex;
+    border-radius: 50px;
+    justify-self: center;
+    background: linear-gradient(#ff550050, #ff550050);
+    justify-content: space-around;
+    padding: 20px;
+}
+img{
+    height: 40vh;
+    opacity: 100%;
+}
+.conteudo{
+    display: flex;
+    align-items: center;
+}
+.texto{
+    align-self: baseline;
+    margin-top: 2em;
+    font-size: 1.5em;
+    width: 400px;
+    margin-left: 40px;
+    backdrop-filter: blur(1px);
+    color: rgb(0, 0, 0);
+}
